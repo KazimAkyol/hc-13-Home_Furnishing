@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #efefef;
+    font-family: "Josefin Slab", serif;
+    font-family: "Judson", serif;
+    font-family: "Bellota", system-ui;
+    height: 100vh;
+}
+
+.container{
+    width: 80px;
+    margin: 50px auto;
+    /* background-color: #787676; */
+    border-radius: 1.5rem;
+    box-shadow: 10px 10px 500px black;
+}
+
+/* iconbar */
+
+.iconbar{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.input-part{
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.input-part img{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: -1px 1px 5px black;
+}
+
+.icons{
+    /* border: 2px solid yellow; */
+}
