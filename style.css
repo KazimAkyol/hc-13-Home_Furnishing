@@ -9,20 +9,22 @@
 body{
     background-color: #efefef;
     font-family: "Josefin Slab", serif;
-    font-family: "Judson", serif;
     font-family: "Bellota", system-ui;
+    font-family: "Judson", serif;
     height: 100vh;
 }
 
 .container{
-    width: 80px;
+    width: 80%;
     margin: 50px auto;
     /* background-color: #787676; */
     border-radius: 1.5rem;
     box-shadow: 10px 10px 500px black;
 }
 
-/* iconbar */
+/* ---------------------------------- */
+/*              .iconbar              */
+/* ---------------------------------- */
 
 .iconbar{
     /* border: 2px solid red; */
@@ -34,11 +36,13 @@ body{
 
 }
 
+
 .input-part{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 .logo{
@@ -50,7 +54,7 @@ body{
 }
 
 .input-part select{
-    width: 180px;
+    width: 188px;
     height: 40px;
     background-color: #d9d9d9;
     border-radius: 5px;
@@ -59,7 +63,7 @@ body{
 }
 
 .input-part .search-input{
-    /* border: 1px solid blue; */
+    border: 1px solid;
     background-color: #d9d9d9;
     margin-left: 1rem;
     width: 300px;
@@ -80,16 +84,50 @@ body{
 .support{
     text-align: right;
     margin-left: 1rem;
+
 }
+
 
 .support-text{
     font-size: 0.8rem;
 }
 
+
 .icons{
-    /* border: 2px solid yellow; */
+    /* border: 2px solid green; */
+    margin-right: 2rem;
+
 }
 
 .icons img{
     padding: 1rem;
+}
+
+.navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px 50px;
+}
+
+.button{
+    /* border: 2px solid blue; */
+    background-color: #d9d9d9;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-style: italic;
+    gap: 1rem;
+}
+
+.nav{
+    /* border: 2px solid green; */
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    align-items: center;
 }
