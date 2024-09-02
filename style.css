@@ -103,6 +103,8 @@ body{
     padding: 1rem;
 }
 
+/* NAVBAR */
+
 .navbar{
     /* border: 2px solid red; */
     display: flex;
@@ -130,4 +132,42 @@ body{
     list-style-type: none;
     gap: 1rem;
     align-items: center;
+}
+
+/* HEADER */
+
+header{
+    background-image: url(./images/stock.jpg);
+    padding: 1rem 5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.essential{
+    background-color: #d5dee5;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    letter-spacing: 0.3px;
+}
+
+.essential text{
+    padding: 20px;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.lighting{
+    background-color: #ffc868;
+    width: 400px;
+    height: 300px;
+}
+
+.lighting img{
+    width: 100%;
+    height: 100%;
 }
